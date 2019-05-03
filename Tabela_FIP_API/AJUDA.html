@@ -1,0 +1,36 @@
+<html>
+	<head>
+		<title></title>
+	</head>
+	<body>
+		<p>
+			Seja bem-vindo ao AJUDA do trabalho referente &agrave; tabela FIPE.</p>
+		<p>
+			O projeto &eacute; formado pelos seguintes packages:</p>
+		<p>
+			<strong>DTO</strong><br />
+			&nbsp; &nbsp; &nbsp; O pagckage DTO &eacute; composta por 4 classes, Marca, Modelo, AnoModelo e VeiculoCompleto, as classes armazenadas neste package s&atilde;o apenas para dar in&iacute;cio a utiliza&ccedil;&atilde;o das listas.<br />
+			&nbsp;</p>
+		<p>
+			<strong>FIPE</strong><br />
+			&nbsp; &nbsp; &nbsp; O package FIPE possui uma classe chamada Fipe, esta classe torna poss&iacute;vel a chamada dos m&eacute;todos necess&aacute;rios referente a cria&ccedil;&atilde;o das listas a serem utilizadas para chegar a um devido resultado. Os m&eacute;todos receber&atilde;o como par&acirc;metro as suas devidas informa&ccedil;&otilde;es para obter o resultado, todos os m&eacute;todos possuem o par&acirc;metro &quot;tipoLista&quot; que dever&aacute; receber como padr&atilde;o marca, modelo, anomodelo ou veiculo, quando seu devido m&eacute;todo for chamado. Os m&eacute;todos recebem os par&acirc;metros, como por exemplo idMarca, idVeiculo, idModelo.<br />
+			&nbsp;</p>
+		<p>
+			<strong>Fabrica</strong><br />
+			&nbsp; &nbsp; &nbsp; O package Fabrica, possui as seguintes classes, FactoryMarca, FactoryModelo, FactoryAnoModelo e FactoryVeiculoCompleto, que ir&aacute; realizar a cria&ccedil;&atilde;o das f&aacute;bricas conforme forem chamadas, todas as classes possuem um &quot;implements&quot; da classe IFactory.&nbsp; &nbsp; &nbsp; &nbsp;<br />
+			&nbsp;</p>
+		<p>
+			<strong>InterfaceFabricas</strong><br />
+			&nbsp; &nbsp; &nbsp; O package InterfaceFabricas possui uma interface chamada IFactory, est&aacute; interface possui apenas um m&eacute;todo para realizar a cria&ccedil;&atilde;o das listas, recebendo como par&acirc;metro uma URL.<br />
+			&nbsp;</p>
+		<p>
+			<strong>Persistencia</strong><br />
+			&nbsp; &nbsp; &nbsp; O package Persistencia possui uma clase chamada ManipulandoJSON, nesta classe ser&aacute; poss&iacute;vel realizar a exporta&ccedil;&atilde;o das listas e limpa-las realizando a chamadas dos m&eacute;todos que essa classe possui.<br />
+			&nbsp;</p>
+		<p>
+			<strong>WebService</strong><br />
+			&nbsp; &nbsp; &nbsp; O package WebService possui uma classe chamada Conexao, essa classe possui um m&eacute;todo chamado verifica(), este m&eacute;todo ir&aacute; verificar a conex&atilde;o para consumir o WebService, se o m&eacute;todo retornar true, ser&aacute; poss&iacute;vel consumir o WebService, se o m&eacute;todo retornar false, n&atilde;o ser&aacute; poss&iacute;vel.</p>
+
+			Desenvolvido por: Eduarda de Lima dos Anjos</p>
+	</body>
+</html>
